@@ -11,8 +11,8 @@ import {
 function Gallery() {
   return (
     <Box p={2}>
-      <Text textAlign="center" fontSize="large" fontWeight="600" mb={10} mt={5}>
-        ---- Gallery ----
+      <Text textAlign="center" fontSize="large" mb={10} mt={5}>
+        Gallery
       </Text>
       <Box display="flex" alignItems="center" flexDirection="column" gap={10}>
         <Box>

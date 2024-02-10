@@ -18,13 +18,25 @@ function MidBox() {
       p={5}
     >
       <Avatar size="lg" mb={2} />
-      <Button onClick={() => navigate("/card-form/:card-distribution")}>
+      <Button
+        onClick={() => navigate("/card-form/:card-distribution")}
+        colorScheme="blue"
+        fontWeight="400"
+      >
         Card Distribution
       </Button>
-      <Button onClick={() => navigate("/member-collection")}>
+      <Button
+        onClick={() => navigate("/member-collection")}
+        colorScheme="blue"
+        fontWeight="400"
+      >
         Member Collection
       </Button>
-      <Button onClick={() => navigate("/card-form/:card-collection")}>
+      <Button
+        onClick={() => navigate("/card-form/:card-collection")}
+        colorScheme="blue"
+        fontWeight="400"
+      >
         Card Collection
       </Button>
     </Box>

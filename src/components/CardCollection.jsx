@@ -136,7 +136,7 @@ function FirstBox({ village, year, totalCards }) {
 function DhaulimuhanSahi({ selectedSahi, setSelectedSahi }) {
   return (
     <Box
-      bg="blue.100"
+      bg="purple.100"
       p={2}
       display="flex"
       alignItems="center"
@@ -150,7 +150,7 @@ function DhaulimuhanSahi({ selectedSahi, setSelectedSahi }) {
         <MenuButton
           as={Button}
           rightIcon={<ChevronDownIcon />}
-          colorScheme="blue"
+          colorScheme="purple"
           fontWeight="400"
           size="sm"
         >
