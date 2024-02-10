@@ -14,10 +14,10 @@ function MidBox() {
       display="flex"
       flexDirection="column"
       alignItems="center"
-      gap={2}
+      gap={3}
       p={5}
     >
-      <Avatar size="lg" mb={2} />
+      <Avatar size="xl" mb={2} mt={12} />
       <Button
         onClick={() => navigate("/card-form/:card-distribution")}
         colorScheme="blue"
