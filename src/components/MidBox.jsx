@@ -17,7 +17,12 @@ function MidBox() {
       gap={3}
       p={5}
     >
-      <Avatar size="xl" mb={2} mt={12} />
+      <Avatar
+        size="xl"
+        mb={2}
+        mt={12}
+        src="http://res.cloudinary.com/suvaranjan/image/upload/v1707580260/ffebyb5m7raempogzpzb.jpg"
+      />
       <Button
         onClick={() => navigate("/card-form/:card-distribution")}
         colorScheme="blue"
