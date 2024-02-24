@@ -6,6 +6,7 @@ import CardForm from "./components/CardForm";
 import CardDistribution from "./components/CardDistribution";
 import CardCollection from "./components/CardCollection";
 import MemberCollection from "./components/MemberCollection";
+import GuestCollection from "./components/GuestCollection";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/member-collection",
         element: <MemberCollection />,
+      },
+      {
+        path: "/guest-collection",
+        element: <GuestCollection />,
       },
     ],
   },

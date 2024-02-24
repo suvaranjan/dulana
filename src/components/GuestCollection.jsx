@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Box, Text, Code } from "@chakra-ui/react";
-import { member } from "../member";
+import { guest } from "../guest";
 import useStore from "../zustand";
 
-function MemberCollection() {
+function GuestCollection() {
   const { year } = useStore((state) => state);
-  const [selectedArray, setSelectedArray] = useState(member);
+  const [selectedArray, setSelectedArray] = useState(guest);
   const [totalCollection, setTotalCollection] = useState(null);
 
   useEffect(() => {
@@ -26,11 +26,11 @@ function MemberCollection() {
     <>
       <Box p={3} display="flex" flexDirection="column" gap={2}>
         <Box>
-          <Text fontWeight="600">Member Collection Details</Text>
+          <Text fontWeight="600">Guest Collection Details</Text>
           <FirstBox year={year} totalCollection={totalCollection} />
         </Box>
         <Box>
-          <Text fontWeight="600">Members Collection</Text>
+          <Text fontWeight="600">Guest Collection</Text>
 
           <Box border="1px solid #000" p={2} borderRadius="md" mt={2} bg="#eee">
             {selectedArray.map((member, index) => {
@@ -103,4 +103,4 @@ function MemberComp({ id, name, money }) {
   );
 }
 
-export default MemberCollection;
+export default GuestCollection;

@@ -33,14 +33,23 @@ function CardForm() {
 
   const handleSubmit = () => {
     if (
-      (!selectedVillage && type !== ":member-collection") ||
-      (!selectedYear && type !== ":member-collection")
+      (!selectedVillage &&
+        type !== ":member-collection" &&
+        type !== ":guest-collection") ||
+      (!selectedYear &&
+        type !== ":member-collection" &&
+        type !== ":guest-collection")
     ) {
       alert("You have to select both fields");
       return;
     }
 
     if (type === ":member-collection" && !selectedYear) {
+      alert("You have to select year");
+      return;
+    }
+
+    if (type === ":guest-collection" && !selectedYear) {
       alert("You have to select year");
       return;
     }
@@ -57,6 +66,9 @@ function CardForm() {
     if (type === ":member-collection") {
       navigate("/member-collection");
     }
+    if (type === ":guest-collection") {
+      navigate("/guest-collection");
+    }
   };
 
   return (
@@ -67,9 +79,11 @@ function CardForm() {
             ? "Card Collection"
             : type === ":member-collection"
             ? "Member Collection"
-            : "Card Distribution"}
+            : type === ":card-distribution"
+            ? "Card Distribution"
+            : "Guest Collection"}
         </Text>
-        {type !== ":member-collection" && (
+        {type !== ":member-collection" && type !== ":guest-collection" && (
           <Box
             display="flex"
             justifyContent="space-between"
