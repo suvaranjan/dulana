@@ -4,7 +4,7 @@ export const tubi = [
         money: [
             {
                 year: 2024,
-                amount: 31,
+                amount: null,
             },
             {
                 year: 2025,
@@ -17,7 +17,7 @@ export const tubi = [
         money: [
             {
                 year: 2024,
-                amount: 75,
+                amount: null,
             },
             {
                 year: 2025,
@@ -30,7 +30,7 @@ export const tubi = [
         money: [
             {
                 year: 2024,
-                amount: 75,
+                amount: 22,
             },
             {
                 year: 2025,
@@ -43,7 +43,7 @@ export const tubi = [
         money: [
             {
                 year: 2024,
-                amount: 75,
+                amount: null,
             },
             {
                 year: 2025,
@@ -56,7 +56,7 @@ export const tubi = [
         money: [
             {
                 year: 2024,
-                amount: 75,
+                amount: null,
             },
             {
                 year: 2025,
@@ -69,7 +69,7 @@ export const tubi = [
         money: [
             {
                 year: 2024,
-                amount: 75,
+                amount: 101,
             },
             {
                 year: 2025,
@@ -82,7 +82,7 @@ export const tubi = [
         money: [
             {
                 year: 2024,
-                amount: 75,
+                amount: null,
             },
             {
                 year: 2025,
@@ -108,7 +108,7 @@ export const tubi = [
         money: [
             {
                 year: 2024,
-                amount: 75,
+                amount: 55,
             },
             {
                 year: 2025,
@@ -121,7 +121,7 @@ export const tubi = [
         money: [
             {
                 year: 2024,
-                amount: 75,
+                amount: null,
             },
             {
                 year: 2025,

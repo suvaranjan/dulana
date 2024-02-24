@@ -14,6 +14,9 @@ import { ChevronDownIcon } from "@chakra-ui/icons";
 import { dhaulimuhanAll } from "../card/dhaulimuhan/dhaulimuhan-all";
 import { kantabaniaAll } from "../card/kantabaniaAll";
 import { kaimatiaAll } from "../card/kaimatiaAll";
+import { madhupur } from "../card/madhupur";
+import { anyanya } from "../card/anyanya";
+import { ramchandi } from "../card/ramchandi";
 import { jagannathsahiAll } from "../card/jaganathsahiAll";
 import { bramhin } from "../card/dhaulimuhan/brahmin";
 import { railway } from "../card/dhaulimuhan/railway";
@@ -24,6 +27,7 @@ function CardCollection() {
   const [selectedSahi, setSelectedSahi] = useState("All");
   const [defaultArray, setDefaultArray] = useState([]);
   const [selectedArray, setSelectedArray] = useState([]);
+  const [totalCollection, setTotalCollection] = useState("");
 
   useEffect(() => {
     // Set default array based on the village
@@ -35,11 +39,16 @@ function CardCollection() {
       setDefaultArray(kaimatiaAll);
     } else if (village === "Jagannath Sahi") {
       setDefaultArray(jagannathsahiAll);
+    } else if (village === "Ramchandi") {
+      setDefaultArray(ramchandi);
+    } else if (village === "Others") {
+      setDefaultArray(anyanya);
+    } else if (village === "Madhupur") {
+      setDefaultArray(madhupur);
     }
   }, [village]);
 
   useEffect(() => {
-    // Set selected array based on the selected sahi
     if (selectedSahi === "All") {
       setSelectedArray(defaultArray);
     } else if (selectedSahi === "Tubi") {
@@ -51,7 +60,20 @@ function CardCollection() {
     }
   }, [selectedSahi, defaultArray]);
 
-  // Calculate total cards
+  useEffect(() => {
+    let totalCollectionAmount = 0;
+
+    selectedArray.forEach((member) => {
+      const moneyEntry = member.money.find((m) => m.year === year);
+
+      if (moneyEntry && moneyEntry.amount !== null) {
+        totalCollectionAmount += moneyEntry.amount;
+      }
+    });
+
+    setTotalCollection(totalCollectionAmount);
+  }, [selectedArray, year]);
+
   const totalCards =
     village === "Dhaulimuhan"
       ? dhaulimuhanAll.length
@@ -61,6 +83,12 @@ function CardCollection() {
       ? kaimatiaAll.length
       : village === "Jagannath Sahi"
       ? jagannathsahiAll.length
+      : village === "Ramchandi"
+      ? ramchandi.length
+      : village === "Madhupur"
+      ? madhupur.length
+      : village === "Others"
+      ? anyanya.length
       : 0;
 
   return (
@@ -68,7 +96,12 @@ function CardCollection() {
       <Box p={3} display="flex" flexDirection="column" gap={2}>
         <Box>
           <Text fontWeight="600">Card Collection Details</Text>
-          <FirstBox village={village} year={year} totalCards={totalCards} />
+          <FirstBox
+            village={village}
+            year={year}
+            totalCards={totalCards}
+            totalCollection={totalCollection}
+          />
         </Box>
         <Box>
           <Text fontWeight="600">Card Members</Text>
@@ -100,7 +133,7 @@ function CardCollection() {
 
 export default CardCollection;
 
-function FirstBox({ village, year, totalCards }) {
+function FirstBox({ village, year, totalCards, totalCollection }) {
   return (
     <Box p={3} mt={1} borderRadius="md" bg="purple.100">
       <Box>
@@ -124,9 +157,9 @@ function FirstBox({ village, year, totalCards }) {
         </Box>
         <Box display="flex">
           <Text mr={1} fontWeight="500">
-            Total Amount Recieved:
+            {`Total Amount Recieved: ${totalCollection}`}
           </Text>
-          <Code colorScheme="orange">not updated</Code>
+          {/* <Code colorScheme="orange">not updated</Code> */}
         </Box>
       </Box>
     </Box>
@@ -187,7 +220,7 @@ function Member({ id, name, money }) {
         <Text mr={1}>{id}.</Text>
         <Text>{name}</Text>
       </Box>
-      {/* {money !== null && (
+      {money !== null && (
         <Code
           colorScheme="green"
           p={1}
@@ -198,8 +231,8 @@ function Member({ id, name, money }) {
         <Code colorScheme="red" p={1}>
           No amount recieved
         </Code>
-      )} */}
-      <Code colorScheme="orange">Amount will be updated at 15/02/2024</Code>
+      )}
+      {/* <Code colorScheme="orange">Amount will be updated at 15/02/2024</Code> */}
     </Box>
   );
 }

@@ -5,7 +5,7 @@ import App from "./App";
 import CardForm from "./components/CardForm";
 import CardDistribution from "./components/CardDistribution";
 import CardCollection from "./components/CardCollection";
-import VillageMember from "./components/VillageMember";
+import MemberCollection from "./components/MemberCollection";
 
 const router = createBrowserRouter([
   {
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/member-collection",
-        element: <VillageMember />,
+        element: <MemberCollection />,
       },
     ],
   },

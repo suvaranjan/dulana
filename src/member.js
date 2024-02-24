@@ -1,10 +1,10 @@
-export const jagannathsahiAll = [
+export const member = [
     {
-        name: "Maguni Barik",
+        name: "Tubuli Baral",
         money: [
             {
                 year: 2024,
-                amount: 51,
+                amount: 1000,
             },
             {
                 year: 2025,
@@ -13,11 +13,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Gobardhana Barik",
+        name: "Babuli Baral",
         money: [
             {
                 year: 2024,
-                amount: 51
+                amount: 1000,
             },
             {
                 year: 2025,
@@ -26,11 +26,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Duryadhana Barik",
+        name: "Kabuli Baral",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 1000,
             },
             {
                 year: 2025,
@@ -39,11 +39,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Narana Dash",
+        name: "Lutu Jena",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 1000,
             },
             {
                 year: 2025,
@@ -52,11 +52,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Sarat Sahoo",
+        name: "Rajib Jena",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 1000,
             },
             {
                 year: 2025,
@@ -65,11 +65,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Chakradhar Sahoo",
+        name: "Papu Biswal",
         money: [
             {
                 year: 2024,
-                amount: 21
+                amount: 500,
             },
             {
                 year: 2025,
@@ -78,11 +78,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Dibyalochana Sahoo",
+        name: "Jyoti Biswal",
         money: [
             {
                 year: 2024,
-                amount: 41
+                amount: 1500,
             },
             {
                 year: 2025,
@@ -91,11 +91,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Santosh Sahoo",
+        name: "Rabi Baral",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 700,
             },
             {
                 year: 2025,
@@ -104,11 +104,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Ashoka Sahoo",
+        name: "Srikant Jena",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 1000,
             },
             {
                 year: 2025,
@@ -117,11 +117,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Kartikeswara Sahoo",
+        name: "Bikram Jena",
         money: [
             {
                 year: 2024,
-                amount: 12
+                amount: 700,
             },
             {
                 year: 2025,
@@ -130,11 +130,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Panchanana Behera",
+        name: "Titan Pradhan",
         money: [
             {
                 year: 2024,
-                amount: 25
+                amount: 500,
             },
             {
                 year: 2025,
@@ -143,11 +143,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Bagha Behera",
+        name: "Jaga Baral",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 1000,
             },
             {
                 year: 2025,
@@ -156,11 +156,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Pandaba Behera",
+        name: "Khaga Baral",
         money: [
             {
                 year: 2024,
-                amount: 41
+                amount: 500,
             },
             {
                 year: 2025,
@@ -169,11 +169,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Jaya Behera",
+        name: "Babul Jena",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 1000,
             },
             {
                 year: 2025,
@@ -182,11 +182,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Daitari Behera",
+        name: "Nandu Jena",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 1000,
             },
             {
                 year: 2025,
@@ -195,11 +195,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Bijaya Kumar Sahoo",
+        name: "Sachikant Jena",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 600,
             },
             {
                 year: 2025,
@@ -208,11 +208,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Bidyadhara Sahoo",
+        name: "Badal Jena",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 1000,
             },
             {
                 year: 2025,
@@ -221,11 +221,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Gouranga Sahoo",
+        name: "Bulu Acharya (Bhaina)",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 300,
             },
             {
                 year: 2025,
@@ -234,11 +234,11 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Rajiba Sahoo",
+        name: "Purnachandra Biswal",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 500,
             },
             {
                 year: 2025,
@@ -247,11 +247,128 @@ export const jagannathsahiAll = [
         ]
     },
     {
-        name: "Susanta Sahoo",
+        name: "Somanath Jena",
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 500,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Sudhir Baral",
+        money: [
+            {
+                year: 2024,
+                amount: 1500,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Siba Biswal",
+        money: [
+            {
+                year: 2024,
+                amount: 1500,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Babina Baral",
+        money: [
+            {
+                year: 2024,
+                amount: 500,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Manoj Das",
+        money: [
+            {
+                year: 2024,
+                amount: 1000,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Nagesh Kumar Swain",
+        money: [
+            {
+                year: 2024,
+                amount: 400,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Raghu Baral",
+        money: [
+            {
+                year: 2024,
+                amount: 500,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Kalu Charan Pradhan",
+        money: [
+            {
+                year: 2024,
+                amount: 500,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Lokanath Pradhan",
+        money: [
+            {
+                year: 2024,
+                amount: 500,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Pintu Baral",
+        money: [
+            {
+                year: 2024,
+                amount: 500,
             },
             {
                 year: 2025,
@@ -260,4 +377,3 @@ export const jagannathsahiAll = [
         ]
     },
 ]
-

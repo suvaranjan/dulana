@@ -4,7 +4,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 55,
+                amount: null,
             },
             {
                 year: 2025,
@@ -17,7 +17,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -30,7 +30,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 21
             },
             {
                 year: 2025,
@@ -43,7 +43,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 21
             },
             {
                 year: 2025,
@@ -56,7 +56,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 51
             },
             {
                 year: 2025,
@@ -69,7 +69,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 21
             },
             {
                 year: 2025,
@@ -82,7 +82,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 31
             },
             {
                 year: 2025,
@@ -95,7 +95,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 51
             },
             {
                 year: 2025,
@@ -108,7 +108,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 51
             },
             {
                 year: 2025,
@@ -121,7 +121,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -134,7 +134,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -147,7 +147,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 21
             },
             {
                 year: 2025,
@@ -160,7 +160,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -173,7 +173,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -186,7 +186,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 50
             },
             {
                 year: 2025,
@@ -199,7 +199,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 30
             },
             {
                 year: 2025,
@@ -212,7 +212,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -225,7 +225,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 45
             },
             {
                 year: 2025,
@@ -238,7 +238,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -251,7 +251,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -264,7 +264,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -277,7 +277,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -290,7 +290,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -303,7 +303,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 50
             },
             {
                 year: 2025,
@@ -316,7 +316,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 52
             },
             {
                 year: 2025,
@@ -329,7 +329,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -342,7 +342,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 51
             },
             {
                 year: 2025,
@@ -355,7 +355,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 51
             },
             {
                 year: 2025,
@@ -368,7 +368,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -381,7 +381,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 50
             },
             {
                 year: 2025,
@@ -394,7 +394,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: 12
             },
             {
                 year: 2025,
@@ -407,7 +407,7 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
             },
             {
                 year: 2025,
@@ -420,7 +420,20 @@ export const kantabaniaAll = [
         money: [
             {
                 year: 2024,
-                amount: 43
+                amount: null
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Bijaya Kumar Sahoo",
+        money: [
+            {
+                year: 2024,
+                amount: 52
             },
             {
                 year: 2025,

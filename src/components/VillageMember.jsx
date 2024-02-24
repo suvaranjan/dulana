@@ -1,13 +1,8 @@
-import { Container, Code } from "@chakra-ui/react";
+import MemberCollection from "./MemberCollection";
+import CardForm from "./CardForm";
 
 function VillageMember() {
-  return (
-    <Container>
-      <Code mt={4} colorScheme="red" fontSize="large">
-        The Member Collection has not been updated.
-      </Code>
-    </Container>
-  );
+  return <CardForm />;
 }
 
 export default VillageMember;

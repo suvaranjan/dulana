@@ -31,7 +31,7 @@ function MidBox() {
         Card Distribution
       </Button>
       <Button
-        onClick={() => navigate("/member-collection")}
+        onClick={() => navigate("/card-form/:member-collection")}
         colorScheme="blue"
         fontWeight="400"
       >

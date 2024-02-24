@@ -4,7 +4,7 @@ export const railway = [
         money: [
             {
                 year: 2024,
-                amount: 55,
+                amount: 11,
             },
             {
                 year: 2025,
@@ -17,7 +17,7 @@ export const railway = [
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 101
             },
             {
                 year: 2025,
@@ -30,7 +30,7 @@ export const railway = [
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 51
             },
             {
                 year: 2025,
@@ -108,7 +108,7 @@ export const railway = [
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 101
             },
             {
                 year: 2025,
@@ -121,7 +121,7 @@ export const railway = [
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 101
             },
             {
                 year: 2025,
@@ -147,7 +147,7 @@ export const railway = [
         money: [
             {
                 year: 2024,
-                amount: null
+                amount: 51
             },
             {
                 year: 2025,
@@ -174,6 +174,19 @@ export const railway = [
             {
                 year: 2024,
                 amount: null
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Joginath Behera",
+        money: [
+            {
+                year: 2024,
+                amount: 51
             },
             {
                 year: 2025,

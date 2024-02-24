@@ -4,7 +4,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 102,
             },
             {
                 year: 2025,
@@ -17,7 +17,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 83,
             },
             {
                 year: 2025,
@@ -69,7 +69,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -108,7 +108,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 101,
             },
             {
                 year: 2025,
@@ -147,7 +147,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 102,
             },
             {
                 year: 2025,
@@ -173,7 +173,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 50,
             },
             {
                 year: 2025,
@@ -225,7 +225,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 55,
             },
             {
                 year: 2025,
@@ -251,7 +251,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 41,
             },
             {
                 year: 2025,
@@ -264,7 +264,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 52,
             },
             {
                 year: 2025,
@@ -290,7 +290,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 52,
             },
             {
                 year: 2025,
@@ -342,7 +342,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -355,7 +355,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 22,
             },
             {
                 year: 2025,
@@ -368,7 +368,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 30,
             },
             {
                 year: 2025,
@@ -394,7 +394,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 52,
             },
             {
                 year: 2025,
@@ -407,7 +407,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -420,7 +420,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -485,7 +485,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 100,
             },
             {
                 year: 2025,
@@ -511,7 +511,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 41,
             },
             {
                 year: 2025,
@@ -524,7 +524,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 20,
             },
             {
                 year: 2025,
@@ -537,7 +537,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 20,
             },
             {
                 year: 2025,
@@ -576,7 +576,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -589,7 +589,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 101,
             },
             {
                 year: 2025,
@@ -719,7 +719,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 201,
             },
             {
                 year: 2025,
@@ -758,7 +758,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -771,7 +771,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 101,
             },
             {
                 year: 2025,
@@ -810,7 +810,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -836,7 +836,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 31,
             },
             {
                 year: 2025,
@@ -888,7 +888,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -901,7 +901,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -940,7 +940,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -966,7 +966,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 35,
             },
             {
                 year: 2025,
@@ -992,7 +992,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 52,
             },
             {
                 year: 2025,
@@ -1005,7 +1005,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 31,
             },
             {
                 year: 2025,
@@ -1031,7 +1031,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -1044,7 +1044,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 110,
             },
             {
                 year: 2025,
@@ -1057,7 +1057,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 31,
             },
             {
                 year: 2025,
@@ -1070,7 +1070,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 26,
             },
             {
                 year: 2025,
@@ -1096,7 +1096,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 26,
             },
             {
                 year: 2025,
@@ -1109,7 +1109,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -1122,7 +1122,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 31,
             },
             {
                 year: 2025,
@@ -1135,7 +1135,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -1174,7 +1174,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 22,
             },
             {
                 year: 2025,
@@ -1200,7 +1200,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -1213,7 +1213,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -1226,7 +1226,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -1239,7 +1239,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -1265,7 +1265,7 @@ export const dhMain = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 52,
             },
             {
                 year: 2025,
@@ -1279,6 +1279,149 @@ export const dhMain = [
             {
                 year: 2024,
                 amount: null,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Ramesh Behera",
+        money: [
+            {
+                year: 2024,
+                amount: 120,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Panchanana Routray",
+        money: [
+            {
+                year: 2024,
+                amount: 51,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Sujit Ranjit",
+        money: [
+            {
+                year: 2024,
+                amount: 51,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Gobardhana Majhi",
+        money: [
+            {
+                year: 2024,
+                amount: 21,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Prananath Arisal",
+        money: [
+            {
+                year: 2024,
+                amount: 22,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Pathani Jena",
+        money: [
+            {
+                year: 2024,
+                amount: 51,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Radhashyam Majhi",
+        money: [
+            {
+                year: 2024,
+                amount: 101,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Hari Behera",
+        money: [
+            {
+                year: 2024,
+                amount: 61,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Anant Moharana",
+        money: [
+            {
+                year: 2024,
+                amount: 21,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Sishir Mishra",
+        money: [
+            {
+                year: 2024,
+                amount: 50,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Amar Chhualsingh",
+        money: [
+            {
+                year: 2024,
+                amount: 50,
             },
             {
                 year: 2025,

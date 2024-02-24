@@ -1,10 +1,10 @@
-export const bramhin = [
+export const madhupur = [
     {
-        name: "Dhaneswara Mishra",
+        name: "Surendra Pradhan",
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 300,
             },
             {
                 year: 2025,
@@ -13,20 +13,7 @@ export const bramhin = [
         ]
     },
     {
-        name: "kumar Sethi",
-        money: [
-            {
-                year: 2024,
-                amount: null,
-            },
-            {
-                year: 2025,
-                amount: null,
-            }
-        ]
-    },
-    {
-        name: "Ramachandra Sethi",
+        name: "Binju Pradhan",
         money: [
             {
                 year: 2024,
@@ -39,11 +26,11 @@ export const bramhin = [
         ]
     },
     {
-        name: "Baleswara Sundaray",
+        name: "Sikhar Pradhan",
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 102,
             },
             {
                 year: 2025,
@@ -52,11 +39,11 @@ export const bramhin = [
         ]
     },
     {
-        name: "Shisir Mishra",
+        name: "Chinu",
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 100,
             },
             {
                 year: 2025,
@@ -65,11 +52,11 @@ export const bramhin = [
         ]
     },
     {
-        name: "Bibhu Bhaina",
+        name: "Tiki",
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 101,
             },
             {
                 year: 2025,
@@ -78,11 +65,11 @@ export const bramhin = [
         ]
     },
     {
-        name: "Pradipta Mishra",
+        name: "Niku Jena",
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 500,
             },
             {
                 year: 2025,
@@ -91,11 +78,11 @@ export const bramhin = [
         ]
     },
     {
-        name: "Purnachandra Routray",
+        name: "Runu",
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 101,
             },
             {
                 year: 2025,
@@ -104,11 +91,11 @@ export const bramhin = [
         ]
     },
     {
-        name: "Ramachandra Routray",
+        name: "Asadip Ransingh",
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 101,
             },
             {
                 year: 2025,
@@ -117,11 +104,11 @@ export const bramhin = [
         ]
     },
     {
-        name: "Aditya Pattajoshi",
+        name: "Jharendra Baral",
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 41,
             },
             {
                 year: 2025,
@@ -129,4 +116,71 @@ export const bramhin = [
             }
         ]
     },
+    {
+        name: "Bira Jena",
+        money: [
+            {
+                year: 2024,
+                amount: 200,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Mani Babu",
+        money: [
+            {
+                year: 2024,
+                amount: 105,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Subala Jena",
+        money: [
+            {
+                year: 2024,
+                amount: 501,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Dhuliram Jena",
+        money: [
+            {
+                year: 2024,
+                amount: 202,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Rajkishor Jena",
+        money: [
+            {
+                year: 2024,
+                amount: 201,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+
 ]
+

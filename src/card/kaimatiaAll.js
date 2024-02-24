@@ -4,7 +4,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: 55,
+                amount: null,
             },
             {
                 year: 2025,
@@ -17,7 +17,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -30,7 +30,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -43,7 +43,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -56,7 +56,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 30,
             },
             {
                 year: 2025,
@@ -69,7 +69,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 20,
             },
             {
                 year: 2025,
@@ -95,7 +95,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 55,
             },
             {
                 year: 2025,
@@ -108,7 +108,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -121,7 +121,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -134,7 +134,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -147,7 +147,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 31,
             },
             {
                 year: 2025,
@@ -160,7 +160,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 41,
             },
             {
                 year: 2025,
@@ -186,7 +186,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 55,
             },
             {
                 year: 2025,
@@ -225,7 +225,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -290,7 +290,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -299,11 +299,11 @@ export const kaimatiaAll = [
         ]
     },
     {
-        name: "Bulu Sahoo",
+        name: "Prasant Kumar Sahoo",
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 41,
             },
             {
                 year: 2025,
@@ -316,7 +316,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 11,
             },
             {
                 year: 2025,
@@ -329,7 +329,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -355,7 +355,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -381,7 +381,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 50,
             },
             {
                 year: 2025,
@@ -394,7 +394,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -407,7 +407,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 30,
             },
             {
                 year: 2025,
@@ -420,7 +420,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 31,
             },
             {
                 year: 2025,
@@ -485,7 +485,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 21,
             },
             {
                 year: 2025,
@@ -511,7 +511,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 52,
             },
             {
                 year: 2025,
@@ -550,7 +550,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 51,
             },
             {
                 year: 2025,
@@ -563,7 +563,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 41,
             },
             {
                 year: 2025,
@@ -576,7 +576,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 25,
             },
             {
                 year: 2025,
@@ -615,7 +615,7 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
-                amount: null,
+                amount: 11,
             },
             {
                 year: 2025,
@@ -667,7 +667,46 @@ export const kaimatiaAll = [
         money: [
             {
                 year: 2024,
+                amount: 41,
+            },
+            {
+                year: 2025,
                 amount: null,
+            }
+        ]
+    },
+    {
+        name: "Panchanana Pradhan",
+        money: [
+            {
+                year: 2024,
+                amount: 21,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Bidyadhara Sahoo",
+        money: [
+            {
+                year: 2024,
+                amount: 31,
+            },
+            {
+                year: 2025,
+                amount: null,
+            }
+        ]
+    },
+    {
+        name: "Gouranga Sahoo",
+        money: [
+            {
+                year: 2024,
+                amount: 51,
             },
             {
                 year: 2025,

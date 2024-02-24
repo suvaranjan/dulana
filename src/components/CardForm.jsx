@@ -32,8 +32,16 @@ function CardForm() {
   };
 
   const handleSubmit = () => {
-    if (!selectedVillage || !selectedYear) {
-      alert("You have to select both fields.");
+    if (
+      (!selectedVillage && type !== ":member-collection") ||
+      (!selectedYear && type !== ":member-collection")
+    ) {
+      alert("You have to select both fields");
+      return;
+    }
+
+    if (type === ":member-collection" && !selectedYear) {
+      alert("You have to select year");
       return;
     }
 
@@ -46,6 +54,9 @@ function CardForm() {
     if (type === ":card-collection") {
       navigate("/card-collection");
     }
+    if (type === ":member-collection") {
+      navigate("/member-collection");
+    }
   };
 
   return (
@@ -54,39 +65,58 @@ function CardForm() {
         <Text fontWeight="600" fontSize="larger" mb={4}>
           {type === ":card-collection"
             ? "Card Collection"
+            : type === ":member-collection"
+            ? "Member Collection"
             : "Card Distribution"}
         </Text>
-        <Box
-          display="flex"
-          justifyContent="space-between"
-          alignItems="center"
-          gap={2}
-        >
-          <Text fontWeight="500">Select a Village</Text>
-          <Menu>
-            <MenuButton
-              as={Button}
-              rightIcon={<ChevronDownIcon />}
-              fontWeight="400"
-            >
-              {selectedVillage || "Select"}
-            </MenuButton>
-            <MenuList>
-              <MenuItem onClick={() => handleVillageSelect("Dhaulimuhan")}>
-                Dhaulimuhan
-              </MenuItem>
-              <MenuItem onClick={() => handleVillageSelect("Kaimatia")}>
-                Kaimatia
-              </MenuItem>
-              <MenuItem onClick={() => handleVillageSelect("Kantabania")}>
-                Kantabania
-              </MenuItem>
-              <MenuItem onClick={() => handleVillageSelect("Jagannath Sahi")}>
-                Jagannath Sahi
-              </MenuItem>
-            </MenuList>
-          </Menu>
-        </Box>
+        {type !== ":member-collection" && (
+          <Box
+            display="flex"
+            justifyContent="space-between"
+            alignItems="center"
+            gap={2}
+          >
+            <Text fontWeight="500">Select a Village</Text>
+            <Menu>
+              <MenuButton
+                as={Button}
+                rightIcon={<ChevronDownIcon />}
+                fontWeight="400"
+              >
+                {selectedVillage || "Select"}
+              </MenuButton>
+              <MenuList>
+                <MenuItem onClick={() => handleVillageSelect("Dhaulimuhan")}>
+                  Dhaulimuhan
+                </MenuItem>
+                <MenuItem onClick={() => handleVillageSelect("Kaimatia")}>
+                  Kaimatia
+                </MenuItem>
+                <MenuItem onClick={() => handleVillageSelect("Kantabania")}>
+                  Kantabania
+                </MenuItem>
+                <MenuItem onClick={() => handleVillageSelect("Jagannath Sahi")}>
+                  Jagannath Sahi
+                </MenuItem>
+                {type === ":card-collection" && (
+                  <MenuItem onClick={() => handleVillageSelect("Madhupur")}>
+                    Madhupur
+                  </MenuItem>
+                )}
+                {type === ":card-collection" && (
+                  <MenuItem onClick={() => handleVillageSelect("Ramchandi")}>
+                    Ramchandi
+                  </MenuItem>
+                )}
+                {type === ":card-collection" && (
+                  <MenuItem onClick={() => handleVillageSelect("Others")}>
+                    Others
+                  </MenuItem>
+                )}
+              </MenuList>
+            </Menu>
+          </Box>
+        )}
         <Box
           display="flex"
           justifyContent="space-between"
