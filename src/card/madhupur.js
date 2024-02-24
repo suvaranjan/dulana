@@ -130,7 +130,7 @@ export const madhupur = [
         ]
     },
     {
-        name: "Mani Babu",
+        name: "Mani Managaraj (Mania)",
         money: [
             {
                 year: 2024,
